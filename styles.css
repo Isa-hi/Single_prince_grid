@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+body {
+  background-color: hsl(204, 43%, 93%);
+  font-family: 'Karla-Bold', sans-serif;
+}
+
+h1,h2 {
+  font-size: 25px;
+}
+
+h1 {
+ color: hsl(179, 62%, 43%);
+}
+
+h2 {
+  color: #fff;
+}
+
+p {
+  font-family: 'Karla', sans-serif;
+  color: #fff;
+}
+
+.principal-box {
+  margin: 14% 30%;
+  align-content: center;
+}
+
+.boxes {
+  padding: 5% 6%;
+}
+
+/* FIRST BOX SECTION */
+.first-box {
+  background-color: #fff;
+}
+
+.first-box p{
+  color:hsl(218, 22%, 67%);
+}
+
+.first-box h3 {
+  color: hsl(71, 73%, 54%);
+  font-size: 20px;
+}
+/* SECOND BOX SECTION */
+.second-box {
+  background-color: hsl(179, 62%, 43%);
+}
+
+.signup-btn {
+  background-color: hsl(71, 73%, 54%);
+  border: 0px;
+  border-radius: 5px;
+  color: #fff;
+}
+
+.second-box span {
+  color: #fff;
+  font-size: 2rem;
+}
+
+
+/* THIRD BOX SECTION */
+.third-box {
+  background-color: hsl(179, 62%, 50%);
+}
+
+@media (max-width: 1200px) {
+  .boxes {
+    flex: 100%;
+    max-width: 100%;
+  }
+}
